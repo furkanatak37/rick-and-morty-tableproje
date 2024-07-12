@@ -1,0 +1,67 @@
+/* Filter.css */
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    color: #219DB7;
+    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-container input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sort-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sort-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #219DB7;
+
+    font-size: 1.1em;
+}
+
+.sort-container select {
+    padding: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 220px;
+}
+
+.filter-container button {
+
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #219DB7;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.filter-container button:hover {
+
+    background-color: #45a049;
+}
+
+.filter-container button:focus {
+
+    outline: none;
+}
